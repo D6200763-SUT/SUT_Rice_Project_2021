@@ -1,0 +1,22 @@
+
+conda create --name tf_gpu_bph
+
+conda install numpy -y
+conda install pandas -y
+conda install matplotlib -y
+pip install -U scikit-learn
+pip install keras
+pip install openpyxl
+pip install tensorflow-gpu
+
+conda install ipykernel
+python -m ipykernel install --user --name tf_gpu_bph --display-name "tf-bph"
+
+
+
+pip install --upgrade tensorflow
+
+-->Test python
+>>>python
+>>>import tensorflow as tf
+>>>tf.__version__
