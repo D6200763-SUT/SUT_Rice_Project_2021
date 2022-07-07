@@ -1,13 +1,20 @@
 
 conda create --name tf_gpu_bph
 
-conda install numpy -y
-conda install pandas -y
-conda install matplotlib -y
+conda install numpy 
+conda install pandas 
+conda install matplotlib 
+conda install -c jmcmurray os
+
+conda install -c anaconda jupyter
+
 pip install -U scikit-learn
 pip install keras
 pip install openpyxl
 pip install tensorflow-gpu
+
+
+conda install -c conda-forge altair vega_datasets
 
 conda install ipykernel
 python -m ipykernel install --user --name tf_gpu_bph --display-name "tf-bph"
