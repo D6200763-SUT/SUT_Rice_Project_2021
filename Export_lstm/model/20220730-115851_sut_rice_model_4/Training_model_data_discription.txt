@@ -1,0 +1,12 @@
+Model : sut_rice_model_4
+
+station :	ALL
+Year-train :	2015-2017
+Year-val :	2018-2018
+features num :	22
+features drop :	R-14 R-8 R-12 R-1 R-20 R-5 R-4 R-6 R-10 R-2 R-18 R-7 R-3 R-19 address R-9 R-13 R-16 R-17 year R-11 R-15
+Sampling :	All-DAY
+time_lag :	7
+time_forecast :	1
+data Model :	Epochs:	1000	batch_size:	128	Units:	50	activation:	relu	loss:	mae
+performance :	loss:	0.00048	accuracy:	0.47167	val loss:	0.001	val accuracy:	0.54688
