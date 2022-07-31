@@ -2,6 +2,7 @@ Model:20220730-025658_sut_rice_model_1
 station:ALL
 Year-train:2015-2017
 Year-val:2018-2018
+features num:34
 features drop:address,year
 Sampling:All-DAY
 time_lag:7
