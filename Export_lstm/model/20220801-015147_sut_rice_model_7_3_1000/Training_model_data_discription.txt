@@ -1,0 +1,11 @@
+Model:sut_rice_model_7_3_1000
+station:ALL
+Year-train:2015-2017
+Year-val:2018-2018
+features-num:2
+features-drop:address year
+Sampling:All-DAY
+time-lag:7
+time-forecast:3
+data-Model:Epochs:1000batch_size:128Units:50activation:reluloss:mae
+performance:loss:0.00081accuracy:0.4717val-loss:0.00264val-accuracy:0.54697
