@@ -1,0 +1,11 @@
+Model:sut_rice_model_1_1_350_Ubon
+station:Ubon Ratchathani Rice research Center
+Year-train:2015-2017
+Year-val:2018-2018
+features-num:4
+features-drop:longitude address year latitude
+Sampling:All-DAY
+time-lag:1
+time-forecast:1
+data-Model:Epochs:350batch_size:128Units:50activation:reluloss:mae
+performance:loss:0.00641accuracy:0.2758val-loss:0.0281val-accuracy:0.73077
