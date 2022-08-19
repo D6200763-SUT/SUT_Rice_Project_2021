@@ -1,0 +1,11 @@
+Model:sut_rice_model_result_1
+station:ALL
+Year-train:2015-2017
+Year-val:2018-2018
+features-num:24
+features-drop:year wspd wdir address R-9 R-8 R-7 R-6 R-5 R-4 R-3 R-20 R-2 R-19 R-18 R-17 R-16 R-15 R-14 R-13 R-12 R-11 R-10 R-1
+Sampling:3-DAY-All
+time-lag:7
+time-forecast:1
+data-Model:Epochs:1000batch_size:128Units:50activation:reluloss:mae
+performance:loss:0.00091accuracy:0.65982val-loss:0.00179val-accuracy:0.69644
